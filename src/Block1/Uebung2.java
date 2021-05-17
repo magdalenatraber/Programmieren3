@@ -15,11 +15,11 @@ public class Uebung2 {
         for (int i = 0; i < listFiles.length; i++) {
             if(listFiles[i].isDirectory())
             System.out.println("Directory:" +listFiles[i]);
-            if(listFiles[i].isFile()){
+           else
                 System.out.println("File: " + listFiles[i]);
             }
 
         }
 
-        }}
+        }
 
