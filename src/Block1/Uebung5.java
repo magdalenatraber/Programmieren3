@@ -15,17 +15,18 @@ public class Uebung5 {
         Question: What is the difference between mkdirs() and mkdir() ?
                 Question: What does mkdirs() return?
         Question: What does mkdir() return?*/
-        File dir = new File("test5");
-
+        File dir = new File("test", "blabla");
+        dir.mkdir();
         System.out.println(dir.isDirectory());
+
         try {
-            if (dir.mkdirs()) {
+            if (dir.createNewFile()) {
                 System.out.println(dir.getAbsolutePath() + "FileName" + dir.getName());
                 System.out.println("uri: " + dir.toURI());
-                System.out.println("path" + dir.getPath());
-                System.out.println("new File created");
+                System.out.println("path: " + dir.getPath());
+                System.out.println("new Directory created");
             } else {
-                System.out.println("File already existed");
+                System.out.println("Directory already existed");
             }
         } catch (Exception e) {
             e.printStackTrace();

@@ -9,7 +9,7 @@ public class Uebung2 {
     }
 
     public static void giveAllFilesinDirectory(File file) {
-
+file.getParent();
         File[] listFiles = file.listFiles();
         System.out.println("List of Files: ");
         for (int i = 0; i < listFiles.length; i++) {

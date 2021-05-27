@@ -1,0 +1,5 @@
+Product{productName='Tisch', price=100.0, productCategory='Moebel'}
+Product{productName='Sessel', price=100.0, productCategory='Moebel'}
+Product{productName='Sofa', price=200.0, productCategory='Moebel'}
+Product{productName='Schwamm', price=30.0, productCategory='Utensil'}
+Product{productName='Buerste', price=10.0, productCategory='Utensil'}

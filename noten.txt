@@ -1,0 +1,4 @@
+ alle Noten dieses Semesters: 
+ DB: 1
+Modelle: 1
+PR1: 1
